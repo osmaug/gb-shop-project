@@ -20,42 +20,58 @@
                 <a class="header__logo" href="#"><img src="img/logo.svg" alt="logo" width="44" height="38"></a>
                 <a class="header__loupe" href="#"><img src="img/loupe.svg" alt="loupe" width="26" height="27"></a>
             </div>
-            <div>
+            <div class="header__menu-wrapper">
                 <button class="header__menu-button" type="button">
-                    <img src="img/burger.svg" alt="burger" width="32" height="23"></button>
+                    <img class="header__menu-button-img" src="img/burger.svg" alt="burger" width="32"
+                        height="23"></button>
                 <a class="header__link" href="#"><img src="img/profile.svg" alt="profile" width="32" height="23"></a>
                 <a class="header__link" href="#"><img src="img/basket.svg" alt="basket" width="32" height="23"></a>
                 <nav class="header__navigation">
-                    <h2 class="header__navigation-title">menu</h2>
+                    <h2 class="header__navigation-title">MENU</h2>
                     <ul class="header__navigation-list">
                         <li class="header__navigation-item navigation-item">
                             <a class="navigation-item__link" href="#">MAN</a>
                             <ul class="navigation-item__sublist">
-                                <li><a class="navigation-item__sublist-link" href="#">Accessories</a></li>
-                                <li><a class="navigation-item__sublist-link" href="#">Bags</a></li>
-                                <li><a class="navigation-item__sublist-link" href="#">Denim</a></li>
-                                <li><a class="navigation-item__sublist-link" href="#">T-Shirts</a></li>
+                                <li class="navigation-item__sublist-li"><a class="navigation-item__sublist-link"
+                                        href="#">Accessories</a></li>
+                                <li class="navigation-item__sublist-li"><a class="navigation-item__sublist-link"
+                                        href="#">Bags</a></li>
+                                <li class="navigation-item__sublist-li"><a class="navigation-item__sublist-link"
+                                        href="#">Denim</a></li>
+                                <li class="navigation-item__sublist-li"><a class="navigation-item__sublist-link"
+                                        href="#">T-Shirts</a></li>
                             </ul>
                         </li>
                         <li class="header__navigation-item navigation-item">
                             <a class="navigation-item__link" href="#">WOMAN</a>
                             <ul class="navigation-item__sublist">
-                                <li><a class="navigation-item__sublist-link" href="#">Accessories</a></li>
-                                <li><a class="navigation-item__sublist-link" href="#">Jackets & Coats</a></li>
-                                <li><a class="navigation-item__sublist-link" href="#">Polos</a></li>
-                                <li><a class="navigation-item__sublist-link" href="#">T-Shirts</a></li>
-                                <li><a class="navigation-item__sublist-link" href="#">Shirts</a></li>
+                                <li class="navigation-item__sublist-li"><a class="navigation-item__sublist-link"
+                                        href="#">Accessories</a></li>
+                                <li class="navigation-item__sublist-li"><a class="navigation-item__sublist-link"
+                                        href="#">Jackets & Coats</a></li>
+                                <li class="navigation-item__sublist-li"><a class="navigation-item__sublist-link"
+                                        href="#">Polos</a></li>
+                                <li class="navigation-item__sublist-li"><a class="navigation-item__sublist-link"
+                                        href="#">T-Shirts</a></li>
+                                <li class="navigation-item__sublist-li"><a class="navigation-item__sublist-link"
+                                        href="#">Shirts</a></li>
                             </ul>
                         </li>
                         <li class="header__navigation-item navigation-item">
                             <a class="navigation-item__link" href="#">KIDS</a>
                             <ul class="navigation-item__sublist">
-                                <li><a class="navigation-item__sublist-link" href="#">Accessories</a></li>
-                                <li><a class="navigation-item__sublist-link" href="#">Jackets & Coats</a></li>
-                                <li><a class="navigation-item__sublist-link" href="#">Polos</a></li>
-                                <li><a class="navigation-item__sublist-link" href="#">T-Shirts</a></li>
-                                <li><a class="navigation-item__sublist-link" href="#">Shirts</a></li>
-                                <li><a class="navigation-item__sublist-link" href="#">Bags</a></li>
+                                <li class="navigation-item__sublist-li"><a class="navigation-item__sublist-link"
+                                        href="#">Accessories</a></li>
+                                <li class="navigation-item__sublist-li"><a class="navigation-item__sublist-link"
+                                        href="#">Jackets & Coats</a></li>
+                                <li class="navigation-item__sublist-li"><a class="navigation-item__sublist-link"
+                                        href="#">Polos</a></li>
+                                <li class="navigation-item__sublist-li"><a class="navigation-item__sublist-link"
+                                        href="#">T-Shirts</a></li>
+                                <li class="navigation-item__sublist-li"><a class="navigation-item__sublist-link"
+                                        href="#">Shirts</a></li>
+                                <li class="navigation-item__sublist-li"><a class="navigation-item__sublist-link"
+                                        href="#">Bags</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -65,10 +81,13 @@
     </header>
     <main>
         <section class="brand">
-            <img class="brand__image" src="img/main-man.png" alt="man" width="800" height="765">
-            <div class="brand__heading-wrapper">
-                <h1 class="brand__title">the brand<br><span class="brand__subtitle">of luxerious<span
-                            class="brand__subtitle-pink">fashion</span></span></h1>
+            <div class="brand__wrapper container">
+                <img class="brand__image" src="img/main-man.png" alt="man" width="800" height="765">
+                <div class="brand__title-wrapper">
+                    <h1 class="brand__title">the brand<br><span class="brand__subtitle">of luxerious<span
+                                class="brand__subtitle-pink">fashion</span></span></h1>
+                </div>
+
             </div>
         </section>
         <section class="stocks container">
@@ -200,11 +219,15 @@
                             class="footer__feedback-text-italic">a pulvinar
                             purus condimentum“</span></p>
                 </div>
-                <div class="footer__subscription">
-                    <h2 class="footer__subscription-heading">subscribe</h2>
-                    <h2 class="footer__subscription-heading-end">for our newsletter and promotion</h2>
-                    <input class="footer__subscription-input" type="email">
-                    <button class="footer__subscription-button" type="button">Subscribe</button>
+                <div class="footer__subscription-wrp">
+                    <div class="footer__subscription-heading">
+                        <h2 class="footer__subscription-heading-top">subscribe</h2>
+                        <h2 class="footer__subscription-heading-end">for our newsletter and promotion</h2>
+                    </div>
+                    <div class="footer__subscription">
+                        <input class="footer__subscription-input" type="email" placeholder="Enter Your Email">
+                        <button class="footer__subscription-button" type="button">Subscribe</button>
+                    </div>
                 </div>
 
             </div>
