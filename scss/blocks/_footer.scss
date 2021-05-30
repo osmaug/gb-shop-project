@@ -1,0 +1,137 @@
+.footer {
+
+    &__top {
+        display: flex;
+        background-image: url(../img/subscribe-img.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        min-height: 448px;
+    }
+
+    &__top-wrapper {
+        display: flex;
+        padding-top: 86px;
+        padding-bottom: 156px;
+        justify-content: space-between;
+    }
+
+    &__top-feedback {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__top-feedback-photo {
+        margin: 0 0 20px 140px;
+        width: 80px;
+    }
+
+    &__top-feedback-text {
+        max-width: 360px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    &__top-feedback-text-italic {
+        font-style: italic;
+    }
+
+
+    &__top-subscription-heading {
+        display: flex;
+        flex-direction: column;
+        max-width: 380px;
+        align-items: center;
+        text-transform: uppercase;
+        color: $almost-black;
+        margin-right: 100px;
+        margin-top: 44px;
+        margin-bottom: 32px;
+    }
+
+    &__top-subscription-heading-top {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    &__top-subscription-heading-end {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    &__top-subscription {
+        display: flex;
+        justify-content: center;
+        margin-right: 100px;
+    }
+
+    &__top-subscription-input {
+        border: none;
+        width: 256px;
+        height: 49px;
+        color: $black-color;
+        background-color: #e1e1e1cc;
+        -webkit-border-top-left-radius: 25px;
+        -webkit-border-bottom-left-radius: 25px;
+        -moz-border-radius-topleft: 25px;
+        -moz-border-radius-bottomleft: 25px;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        padding-left: 20px;
+    }
+
+    &__top-subscription-button {
+        border: none;
+        width: 100px;
+        height: 49px;
+        -webkit-border-top-right-radius: 25px;
+        -webkit-border-bottom-right-radius: 25px;
+        -moz-border-radius-topright: 25px;
+        -moz-border-radius-bottomright: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        background-color: $dark-pink;
+        color: $almost-white;
+    }
+
+    &__end {
+        background-color: $almost-black;
+        display: flex;
+        align-items: center;
+        min-height: 80px;
+    }
+
+    &__end-wrp {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__end-text {
+        align-self: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        color: $almost-white;
+        ;
+    }
+
+    &__end-social-links-list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__end-social-link {
+        width: 32px;
+        height: 32px;
+        background-color: $almost-white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+    }
+
+}
