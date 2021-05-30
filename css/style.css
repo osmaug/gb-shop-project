@@ -1,11 +1,3 @@
-<<<<<<< Updated upstream
-:root {
-    --black-color: #222222;
-    --almost-black: #222224;
-    --pink-color: #F1E4E6;
-    --dark-pink: #e74359;
-    --almost-white: #FBFBFB;
-=======
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -111,7 +103,6 @@ menu,
 nav,
 section {
   display: block;
->>>>>>> Stashed changes
 }
 
 body {
@@ -150,14 +141,9 @@ body {
 }
 
 .container {
-<<<<<<< Updated upstream
-    width: 1140px;
-    margin: 0 auto;
-=======
   width: 1140px;
   margin: 0 auto;
   position: relative;
->>>>>>> Stashed changes
 }
 
 .visually-hidden {
@@ -192,15 +178,12 @@ body {
   margin: 0 41px 0 0;
 }
 
-<<<<<<< Updated upstream
-=======
 .header__menu-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
->>>>>>> Stashed changes
 .header__menu-button {
   border: none;
   background-color: transparent;
@@ -211,11 +194,20 @@ body {
 }
 
 .header__navigation {
-<<<<<<< Updated upstream
     display: none;
+    background-color: var(--almost-white);
+    width: 232px;
+    height: 765px;
+    padding-left: 34px;
+    position: absolute;
+    top: 75px;
+    right: -232px;
 }
 
-=======
+.header__menu-button:hover+.header__navigation {
+    display: block;
+}
+
   display: none;
   background-color: #FBFBFB;
   width: 232px;
@@ -258,7 +250,34 @@ body {
   margin-bottom: 11px;
 }
 
->>>>>>> Stashed changes
+.header__navigation-title {
+    font-weight: 700;
+    color: var(--black-color);
+    margin-top: 37px;
+    margin-bottom: 4px;
+}
+
+.navigation-item__sublist {
+    margin-top: 20px;
+}
+
+.navigation-item__link {
+    font-weight: 400;
+    color: var(--dark-pink);
+    display: block;
+    margin-top: 20px;
+}
+
+.navigation-item__sublist-link {
+    font-weight: 400;
+    color: var(--grey);
+    margin-left: 20px;
+}
+
+.navigation-item__sublist-li {
+    margin-bottom: 11px;
+}
+
 .brand {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -269,12 +288,27 @@ body {
           align-items: center;
 }
 
-<<<<<<< Updated upstream
+.brand__wrapper {
+    display: flex;
+}
+
+.brand__image {
+    margin-left: -150px;
+}
+
 .brand__title-wrapper {
-    flex-grow: 1;
-    padding: 0 0 0 92px;
     display: flex;
     align-items: center;
+}
+
+.brand__title:before {
+    content: "";
+    width: 20px;
+    height: 98px;
+    left: -36px;
+    top: 10px;
+    position: absolute;
+    background-color: var(--dark-pink);
 }
 
 .brand__title {
@@ -283,7 +317,7 @@ body {
     line-height: 58px;
     text-transform: uppercase;
     max-width: 440px;
-=======
+
 .brand__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -320,7 +354,6 @@ body {
   text-transform: uppercase;
   max-width: 440px;
   position: relative;
->>>>>>> Stashed changes
 }
 
 .brand__subtitle {
@@ -623,7 +656,6 @@ body {
 }
 
 .services__type-description {
-<<<<<<< Updated upstream
     color: var(--almost-white);
     align-content: center;
 }
@@ -665,10 +697,68 @@ body {
     font-style: italic;
 }
 
+.footer_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__subscription-heading {
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+    align-items: center;
+    text-transform: uppercase;
+    color: var(--almost-black);
+    margin-right: 100px;
+    margin-top: 44px;
+    margin-bottom: 32px;
+}
+
+.footer__subscription-heading-top {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.footer__subscription-heading-end {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
 
 .footer__subscription {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.footer__subscription-input {
+    border: none;
+    width: 256px;
+    height: 49px;
+    color: var(--black-color);
+    background-color: #e1e1e1cc;
+    -webkit-border-top-left-radius: 25px;
+    -webkit-border-bottom-left-radius: 25px;
+    -moz-border-radius-topleft: 25px;
+    -moz-border-radius-bottomleft: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-left: 20px;
+}
+
+.footer__subscription-button {
+    border: none;
+    width: 100px;
+    height: 49px;
+    -webkit-border-top-right-radius: 25px;
+    -webkit-border-bottom-right-radius: 25px;
+    -moz-border-radius-topright: 25px;
+    -moz-border-radius-bottomright: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: var(--dark-pink);
+    color: var(--almost-white);
 }
 
 .footer-end {
@@ -706,7 +796,6 @@ body {
     align-items: center;
     margin-left: 5px;
 }
-=======
   color: #FBFBFB;
   -ms-flex-line-pack: center;
       align-content: center;
@@ -888,4 +977,3 @@ body {
   margin-left: 5px;
 }
 /*# sourceMappingURL=style.css.map */
->>>>>>> Stashed changes
