@@ -1,0 +1,82 @@
+.stocks {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.stocks__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.stocks__item {
+    width: 360px;
+    min-height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stocks__item-link {
+    text-decoration: none;
+}
+
+.stocks__item-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: $almost-white;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.stocks__item-header {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: $dark-pink;
+    text-transform: uppercase;
+}
+
+.stocks__item--woman {
+    background-image: url(../img/women-coll.jpg);
+}
+
+.stocks__item--woman:hover .stocks__item-text,
+.stocks__item--woman:hover .stocks__item-header {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.stocks__item--man {
+    background-image: url(../img/men-coll.jpg);
+}
+
+.stocks__item--man:hover .stocks__item-text,
+.stocks__item--man:hover .stocks__item-header {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.stocks__item--kids {
+    background-image: url(../img/kids-coll.jpg);
+}
+
+.stocks__item--kids:hover .stocks__item-text,
+.stocks__item--kids:hover .stocks__item-header {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.stocks__item--accessories {
+    width: 100%;
+    background-image: url(../img/access-coll.jpg);
+    margin-top: 20px;
+}
+
+.stocks__item--accessories:hover .stocks__item-text,
+.stocks__item--accessories:hover .stocks__item-header {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
